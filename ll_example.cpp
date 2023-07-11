@@ -25,7 +25,7 @@ int main( void )
             cin>> item ;
             l.insert( item ); // insert item in list
             l.printList();//print the list out
-        
+            l.printListR();
             break;
          case 2: // delete an element
             // if list is not empty
